@@ -121,3 +121,76 @@ message BytesValue {
   // The bytes value.
   bytes value = 1;
 }
+
+
+// Wrapper message for an array of `double` values.
+//
+// The JSON representation for `DoubleValues` is JSON number.
+message DoubleValues {
+  // The double values.
+  repeated double values = 1;
+}
+
+// Wrapper message for an array of `float` values.
+//
+// The JSON representation for `FloatValues` is JSON number.
+message FloatValues {
+  // The float values.
+  repeated float values = 1;
+}
+
+// Wrapper message for an array of `int64` values.
+//
+// The JSON representation for `Int64Values` is JSON string.
+message Int64Values {
+  // The int64 values.
+  repeated int64 values = 1;
+}
+
+// Wrapper message for an array of `uint64` values.
+//
+// The JSON representation for `UInt64Values` is JSON string.
+message UInt64Values {
+  // The uint64 values.
+  repeated uint64 values = 1;
+}
+
+// Wrapper message for an array of `int32` values.
+//
+// The JSON representation for `Int32Values` is JSON number.
+message Int32Values {
+  // The int32 values.
+  repeated int32 values = 1;
+}
+
+// Wrapper message for an array of `uint32` values.
+//
+// The JSON representation for `UInt32Values` is JSON number.
+message UInt32Values {
+  // The uint32 values.
+  repeated uint32 values = 1;
+}
+
+// Wrapper message for an array of `bool` values.
+//
+// The JSON representation for `BoolValues` is JSON `true` and `false`.
+message BoolValues {
+  // The bool values.
+  repeated bool values = 1;
+}
+
+// Wrapper message for an array of `string` values.
+//
+// The JSON representation for `StringValues` is JSON string.
+message StringValues {
+  // The string values.
+  repeated string values = 1;
+}
+
+// Wrapper message for an array of `bytes` values.
+//
+// The JSON representation for `BytesValues` is JSON string.
+message BytesValues {
+  // The bytes values.
+  repeated bytes values = 1;
+}
